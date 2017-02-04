@@ -15,12 +15,14 @@ export default class App extends Component {
     }
     
     componentDidMount() {
+        // Preload data for faster access
         this.props.service.getData().then(contacts => {
             window.GlobalData["contacts"] = contacts;
         });
     }
 
     render() {
+        // Render terminal with our extension commands
         return(<div>
             <Terminal theme="dark" prefix="neo@Nebuchadnezzar" extensions={extensions} />
         </div>);

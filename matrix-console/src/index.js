@@ -4,14 +4,9 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import Service from './Service';
 
-//import CreditService from './service/CreditService'
-//import CrmWrapper from './service/CrmWrapper'
-
 require('./style.css')
 
 const service = new Service();
-
-//window.creditDev = {creditService: creditService, crmWrapper: CrmWrapper};
 
 const rootEl = document.getElementById('foreground');
 ReactDOM.render(
@@ -36,4 +31,4 @@ if (module.hot) {
   });
 }
 
-//module.hot.accept();
+module.hot.accept();
