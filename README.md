@@ -1,4 +1,4 @@
-"# Skill Wizards @ Arctic SharePoint Challenge 2017" 
+# "Skill Wizards @ Arctic SharePoint Challenge 2017"#
 
 This repository contains the codework of Skill Wizards work at ASPC2017
 
